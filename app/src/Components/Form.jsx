@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../Components/Form.css"
 const Forms = () => {
   const initState = {
     firstName: "",
@@ -72,7 +72,7 @@ const Forms = () => {
   }
 
   return (
-    <div>
+    <div className="mainContainer">
       <form onSubmit={handleSubmit}>
         <label htmlFor="">
           <input
