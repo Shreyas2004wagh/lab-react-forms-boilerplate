@@ -73,6 +73,7 @@ const Forms = () => {
 
   return (
     <div className="mainContainer">
+      <h1>Form</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="">
           <input
