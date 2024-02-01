@@ -24,3 +24,9 @@ button{
     height: 50px;
     width: 200px;
 }
+.regMsg{
+    position: relative;
+    top: 100px;
+    left: 10px;
+    color: black;
+}

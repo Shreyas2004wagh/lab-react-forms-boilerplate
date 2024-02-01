@@ -1,5 +1,6 @@
 import React from "react";
 import "../Components/Form.css"
+
 const Forms = () => {
   const initState = {
     firstName: "",
@@ -72,8 +73,7 @@ const Forms = () => {
   }
 
   return (
-    <div className="mainContainer">
-      <h1>Form</h1>
+    <div>
       <form onSubmit={handleSubmit}>
         <label htmlFor="">
           <input
@@ -125,7 +125,7 @@ const Forms = () => {
         </label>
         <button>Register</button>
       </form>
-      <div>
+      <div className="regMsg">
         {registationSuccess && (<div>Registration Successfull !!</div>)}
       </div>
     </div>
